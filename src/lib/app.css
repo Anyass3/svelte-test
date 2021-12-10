@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+	--padding: 1.5rem;
+}
+@media (max-width: 768px) {
+	:root {
+		--padding: 0.5rem;
+	}
+}
+
+.icon {
+	@apply grid place-items-center;
+}
